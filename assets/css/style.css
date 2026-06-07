@@ -2011,3 +2011,43 @@ textarea.form-input {
         transition: opacity 0.2s ease;
     }
 }
+
+
+.toolkit-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 30px;
+}
+
+@media (min-width: 768px) {
+  .toolkit-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.toolkit-item {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.toolkit-item:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 204, 0, 0.5);
+}
+
+.toolkit-header h5 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.toolkit-desc {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #b3b3b3;
+}

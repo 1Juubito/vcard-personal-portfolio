@@ -49,4 +49,4 @@ Como a aplicação é um Front-end estático, rodar na sua máquina é mais fác
 
 ## 👨‍💻 Autor
 
-**Allan Crisanto** *Técnico de TI & Estudante de Análise e Desenvolvimento de Sistemas (UNINTER)*
+**Allan Crisanto** *Técnico de TI, Graduado em ADS pela Uninter e Pós-graduando Cibersegurança Ofensiva pela FIAP*

@@ -203,9 +203,6 @@
     </aside>
 
 
-
-
-
     <div class="main-content">
 
       <nav class="navbar">
@@ -335,7 +332,7 @@
                 <h4 class="h4 service-item-title">Desenvolvimento Mobile</h4>
 
                 <p class="service-item-text">
-                  Kotlin, Java, Dart, Flutter
+                  Kotlin, Java, Dart, Flutter, C# (.NET MAUI)
                 </p>
               </div>
 
@@ -348,7 +345,7 @@
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Segurança Ofensiva</h4>
                 <p class="service-item-text">
-                  Kali Linux, Metasploit, Nmap, Wireshark
+                  Kali Linux, Metasploit, Nmap, Wireshark, Kali NetHunter
                 </p>
               </div>
             </li>
@@ -580,73 +577,124 @@
 
         </section>
 
+        <!-- ============================================================
+             CINTO DE UTILIDADES — ATUALIZADO
+        ============================================================ -->
         <section class="skill">
 
           <h3 class="h3 skills-title">Meu Cinto de Utilidades</h3>
 
           <ul class="toolkit-list content-card">
 
-            <li class="toolkit-item">
-              <div class="toolkit-header">
-                <h5 class="h5">🐍 Python</h5>
-              </div>
-              <p class="toolkit-desc">Automação de rotinas, web scraping, scripts de contingência e criação de ferramentas ofensivas.</p>
-            </li>
-
-            <li class="toolkit-item">
-              <div class="toolkit-header">
-                <h5 class="h5">🐧 Linux & Servidores</h5>
-              </div>
-              <p class="toolkit-desc">Administração de sistemas, hardening e ambiente principal para infraestruturas.</p>
-            </li>
+            <!-- ── OFENSIVO ── -->
 
             <li class="toolkit-item">
               <div class="toolkit-header">
                 <h5 class="h5">🛡️ Red Team Ops</h5>
               </div>
-              <p class="toolkit-desc">Mapeamento de superfície de ataque, análise de vulnerabilidades e testes de intrusão (Pentest).</p>
-            </li>
-
-            <li class="toolkit-item">
-              <div class="toolkit-header">
-                <h5 class="h5">📱 Flutter & Dart</h5>
-              </div>
-              <p class="toolkit-desc">Desenvolvimento mobile multiplataforma focado em alta performance e arquiteturas offline-first.</p>
+              <p class="toolkit-desc">Mapeamento de superfície de ataque, análise de vulnerabilidades, testes de intrusão (Pentest) e simulação de ameaças persistentes avançadas (APT) em ambientes controlados.</p>
             </li>
 
             <li class="toolkit-item">
               <div class="toolkit-header">
                 <h5 class="h5">🦠 Ferramentas Ofensivas (Kali Toolkit)</h5>
               </div>
-              <p class="toolkit-desc">exiftool, binwalk, steghide, zsteg, tshark e scapy — análise forense, extração de metadados e identificação de artefatos ocultos.</p>
+              <p class="toolkit-desc">exiftool, binwalk, steghide, zsteg, tshark e scapy — análise forense, extração de metadados e identificação de artefatos ocultos. Metasploit Framework para exploração de vulnerabilidades (vsftpd 2.3.4, EternalBlue) e pós-exploração com Meterpreter.</p>
             </li>
 
             <li class="toolkit-item">
               <div class="toolkit-header">
-                <h5 class="h5">🗄️ Bancos Relacionais & SQL</h5>
+                <h5 class="h5">📡 Ataques a Redes Wi-Fi</h5>
               </div>
-              <p class="toolkit-desc">Modelagem de dados estruturada, consultas complexas e gestão confiável da informação.</p>
+              <p class="toolkit-desc">Captura de handshake WPA2 e ataque PMKID via hcxdumptool (sem necessidade de cliente conectado), cracking com hashcat acelerado por GPU. Evil Twin com Wifiphisher + captive portal customizado e bruteforce WPS via Reaver.</p>
+            </li>
+
+            <li class="toolkit-item">
+              <div class="toolkit-header">
+                <h5 class="h5">🕸️ C2 & Análise de Malware</h5>
+              </div>
+              <p class="toolkit-desc">Estudo de frameworks de Command & Control (Meterpreter, Sliver, Covenant), análise de categorias de malware (RAT, Infostealer, Backdoor, Trojan) mapeadas ao MITRE ATT&CK. Foco em compreender IOCs e TTPs para detecção e resposta a incidentes.</p>
+            </li>
+
+            <li class="toolkit-item">
+              <div class="toolkit-header">
+                <h5 class="h5">📱 Kali NetHunter & Mobile Pentest</h5>
+              </div>
+              <p class="toolkit-desc">Ambiente de pentest mobile com Kali NetHunter Rootless no Samsung S23 Ultra. Reconhecimento e testes de intrusão a partir de dispositivo móvel, integração com ADB para análise e interação com alvos Android em ambiente de laboratório.</p>
+            </li>
+
+            <!-- ── DESENVOLVIMENTO ── -->
+
+            <li class="toolkit-item">
+              <div class="toolkit-header">
+                <h5 class="h5">🐍 Python</h5>
+              </div>
+              <p class="toolkit-desc">Automação de rotinas, web scraping, scripts ofensivos de reconhecimento e criação de ferramentas de análise. Linguagem principal para prototipagem rápida e desenvolvimento de tooling customizado.</p>
+            </li>
+
+            <li class="toolkit-item">
+              <div class="toolkit-header">
+                <h5 class="h5">🐧 Linux & Servidores</h5>
+              </div>
+              <p class="toolkit-desc">Administração de sistemas, hardening, scripting Bash e ambiente principal para infraestruturas e labs ofensivos. Kali Linux como plataforma de trabalho diária.</p>
+            </li>
+
+            <li class="toolkit-item">
+              <div class="toolkit-header">
+                <h5 class="h5">📱 Flutter & Dart</h5>
+              </div>
+              <p class="toolkit-desc">Desenvolvimento mobile multiplataforma focado em alta performance e arquiteturas offline-first. Firebase Firestore com sincronização reativa via Streams e persistência híbrida com Hive.</p>
+            </li>
+
+            <li class="toolkit-item">
+              <div class="toolkit-header">
+                <h5 class="h5">🪟 C# / .NET MAUI</h5>
+              </div>
+              <p class="toolkit-desc">Desenvolvimento de aplicações Android com .NET MAUI, incluindo uso de Accessibility Services para coleta de dados de input no contexto de pesquisa ofensiva em ambiente de laboratório isolado.</p>
             </li>
 
             <li class="toolkit-item">
               <div class="toolkit-header">
                 <h5 class="h5">🌐 Web Nativo (HTML, CSS & JS Vanilla)</h5>
               </div>
-              <p class="toolkit-desc">Construção de interfaces responsivas e leves (como e-commerces e landig pages), com foco em performance sem dependência excessiva de frameworks.</p>
+              <p class="toolkit-desc">Construção de interfaces responsivas e leves (e-commerces, landing pages), com foco em performance sem dependência excessiva de frameworks. Mobile-First e manipulação avançada do DOM.</p>
             </li>
+
+            <li class="toolkit-item">
+              <div class="toolkit-header">
+                <h5 class="h5">🔗 APIs & Integrações</h5>
+              </div>
+              <p class="toolkit-desc">Consumo de serviços RESTful, manipulação de dados estruturados (JSON) e integração de sistemas de terceiros. Experiência com sockets TCP/Python para comunicação cliente-servidor em ambiente de lab.</p>
+            </li>
+
+            <!-- ── INFRAESTRUTURA ── -->
 
             <li class="toolkit-item">
               <div class="toolkit-header">
                 <h5 class="h5">🏥 Infraestrutura & Servidores</h5>
               </div>
-              <p class="toolkit-desc">Configuração de rede, mapeamento de serviços críticos (como servidores de escaneamento hospitalar) e sustentação de TI 24/7.</p>
+              <p class="toolkit-desc">Configuração de rede, mapeamento de serviços críticos (servidores de escaneamento hospitalar, VoIP), sustentação de TI 24/7 em ambiente hospitalar com ~300 ativos gerenciados.</p>
+            </li>
+
+            <li class="toolkit-item">
+              <div class="toolkit-header">
+                <h5 class="h5">🗄️ Bancos Relacionais & SQL</h5>
+              </div>
+              <p class="toolkit-desc">Modelagem de dados estruturada, consultas complexas e gestão confiável da informação. Aplicado tanto em projetos de desenvolvimento quanto na análise de dados em contextos de segurança.</p>
             </li>
 
             <li class="toolkit-item">
               <div class="toolkit-header">
                 <h5 class="h5">🖥️ Hardware & Monitoramento</h5>
               </div>
-              <p class="toolkit-desc">Montagem e otimização de setups de alta performance, configuração de painéis de telemetria via hardware e troubleshooting.</p>
+              <p class="toolkit-desc">Montagem e otimização de setups de alta performance (RTX 5070 para workloads de cracking), configuração de painéis de telemetria via hardware e troubleshooting em campo.</p>
+            </li>
+
+            <li class="toolkit-item">
+              <div class="toolkit-header">
+                <h5 class="h5">☁️ Active Directory & Cloud (em construção)</h5>
+              </div>
+              <p class="toolkit-desc">Lab em desenvolvimento para simulação de ataques internos em Active Directory (Kerberoasting, BloodHound, pass-the-hash) e ambiente Azure com Kali VM integrado ao Microsoft Sentinel como SIEM.</p>
             </li>
 
             <li class="toolkit-item">
@@ -660,14 +708,7 @@
               <div class="toolkit-header">
                 <h5 class="h5">🎮 Lógica de Jogos & Backend (Python)</h5>
               </div>
-              <p class="toolkit-desc">Desenvolvimento de arquiteturas para jogos 2D, aplicando Programação Orientada a Objetos (POO), gerenciamento de estado em tempo real (game loops) e cálculo de colisões.</p>
-            </li>
-
-            <li class="toolkit-item">
-              <div class="toolkit-header">
-                <h5 class="h5">🔗 APIs & Integrações</h5>
-              </div>
-              <p class="toolkit-desc">Consumo de serviços RESTful, manipulação de dados estruturados (JSON) e integração de sistemas de terceiros para expandir as funcionalidades das aplicações.</p>
+              <p class="toolkit-desc">Desenvolvimento de arquiteturas para jogos 2D, aplicando POO, gerenciamento de estado em tempo real (game loops) e cálculo de colisões com Pygame.</p>
             </li>
 
           </ul>
@@ -985,7 +1026,7 @@
                     <rect id="mask_fire" x="511" y="41" width="38" height="34"/>
                 </defs>
                 <clipPath id="mask-fire_1_">
-                    <use xlink:href="#mask_fire"  overflow="visible"/>
+                    <use xlink:href="#mask_fire"  overflow="visible"/>
                 </clipPath>
                 <g id="group-fire" clip-path="url(#mask-fire_1_)">
                     <path id="red-flame" fill="#B71342" d="M528.377,100.291c6.207,0,10.947-3.272,10.834-8.576 c-0.112-5.305-2.934-8.803-8.237-10.383c-5.306-1.581-3.838-7.9-0.79-9.707c-7.337,2.032-7.581,5.891-7.11,8.238 c0.789,3.951,7.56,4.402,5.077,9.48c-2.482,5.079-8.012,1.129-6.319-2.257c-2.843,2.233-4.78,6.681-2.259,9.703 C521.256,98.809,524.175,100.291,528.377,100.291z"/>
@@ -1015,7 +1056,7 @@
                     s-3.375,0.25-3.375,0.25s-8.75,21.625-9.875,23.5S533.875,65,535,65.625z"/>
             </defs>
             <clipPath id="SVGID_2_">
-                <use xlink:href="#SVGID_1_"  overflow="visible"/>
+                <use xlink:href="#SVGID_1_"  overflow="visible"/>
             </clipPath>
             <rect id="progress-time-fill" x="-100%" y="34" clip-path="url(#SVGID_2_)" fill="#BE002A" width="586" height="103"/>
         </g>
@@ -1081,8 +1122,8 @@
   <script src="./assets/js/api-news.js"></script>
   <script src="app.js"></script>
 
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <div id="success-popup" class="popup-container">
     <div class="popup-content">
       <button class="popup-close-btn" id="popup-close-btn" aria-label="Fechar notificação de sucesso">&times;</button>
